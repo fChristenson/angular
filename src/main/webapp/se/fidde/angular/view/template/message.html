@@ -1,0 +1,6 @@
+<h1>Wuv messages</h1>
+<form ng-submit="addMessage()" class="form" name="messageForm">
+	<input ng-model="messageTitle" type="text" name="messageTitle" required="required" maxlength="255" class="form-control" placeholder="Title">
+	<textarea ng-model="messageText" rows="3" required="required" maxlength="255" class="form-control" placeholder="Message"></textarea>
+	<input type="submit" class="btn btn-primary">
+</form>

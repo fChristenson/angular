@@ -1,0 +1,20 @@
+<h2>Who do you wuv?</h2>
+<form class="form" ng-submit="addLove()" name="lovesForm">
+	<input ng-model="name" class="form-control" type="text" name="name" placeholder="Name" tabindex="1" required="required" autofocus="autofocus">
+	<input ng-model="email" class="form-control" type="email" name="email" placeholder="Email" tabindex="2" required="required">
+	<input class="form-control btn btn-primary" type="submit" name="submit" tabindex="3">
+</form>
+
+<h2>People you wuv</h2>
+<table class="table table-hover">
+	<thead>
+		<th>Name</th>
+		<th>Email</th>
+	</thead>	
+	<tbody>
+		<tr ng-repeat="person in people | orderBy:'name'">
+			<td>{{person.name}}</td>
+			<td>{{person.email}}</td>
+		</tr>
+	</tbody>
+</table>

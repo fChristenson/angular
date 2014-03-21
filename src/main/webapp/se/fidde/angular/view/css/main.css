@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+html{height:100%;}
+body{
+    height: 100% !important;
+	background-color: #B80C7A;
+	background-image: linear-gradient(to right bottom, #B80C7A,  #FFFAF0 99%);
+	background-repeat: no-repeat;
+}
+li{display: inline-block !important;}
+li a{color:black;}
+form input{
+	display:block !important;
+	max-width: 320px;
+	margin: 0.2em auto;
+}
+textarea{
+	display:block !important;
+	min-width: 320px;
+	margin: 0.2em auto;
+}

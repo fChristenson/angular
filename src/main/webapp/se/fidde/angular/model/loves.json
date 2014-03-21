@@ -1,0 +1,22 @@
+[
+	{
+        "id": 0,
+        "firstName": "fredrik",
+        "lastName": "christenson",
+        "email": "fredrik.christenson@gmail.com"
+    },
+        
+    {
+        "id": 1,
+        "firstName": "foo",
+        "lastName": "bar",
+        "email": "foo.bar@gmail.com"
+	},
+	
+    {
+        "id": 2,
+        "firstName": "Abba",
+        "lastName": "AbbA",
+        "email": "abba.bar@gmail.com"
+	}
+]
