@@ -1,4 +1,4 @@
 angular
 =======
 
-Playing with angular and REST
+Playing with angular
